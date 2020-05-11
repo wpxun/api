@@ -1,0 +1,24 @@
+_id: req_wrk_0773c33f5e0042dd9cfb93420952b222b664fa3a
+authentication:
+  prefix: ""
+  token: "{{bearerToken}}"
+  type: bearer
+body: {}
+created: 1589023180020
+description: ""
+headers: []
+isPrivate: false
+metaSortKey: -1589023180020
+method: GET
+modified: 1589026518422
+name: 获取当前用户的账号列
+parameters: []
+parentId: fld_wrk_0773c33f5e0042dd9cfb93420952b2229270b0e2
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: "{{ base_url }}/v1/payments"

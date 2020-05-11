@@ -1,0 +1,15 @@
+_id: env_env_c1354fd01fb3a7dc996bfb6cb0cf7d71db54bd3c_sub
+color: null
+created: 1589023181575
+data:
+  base_path: ""
+  bearerToken: bearerToken
+  host: acc.qmlm.cn
+  scheme: http
+dataPropertyOrder: null
+isPrivate: false
+metaSortKey: 1589023181575
+modified: 1589026518747
+name: OpenAPI env
+parentId: env_c1354fd01fb3a7dc996bfb6cb0cf7d71db54bd3c
+type: Environment

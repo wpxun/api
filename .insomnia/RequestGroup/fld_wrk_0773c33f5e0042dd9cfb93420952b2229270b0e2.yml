@@ -1,0 +1,10 @@
+_id: fld_wrk_0773c33f5e0042dd9cfb93420952b2229270b0e2
+created: 1589023181317
+description: 收付款账号相关的操作
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1589023181317
+modified: 1589026518691
+name: 收付款账号
+parentId: wrk_0773c33f5e0042dd9cfb93420952b222
+type: RequestGroup

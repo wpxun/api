@@ -1,0 +1,11 @@
+_id: wrk_0773c33f5e0042dd9cfb93420952b222
+created: 1589023179926
+description: 认证流程和用户操作接口，内部域名需要绑定 hosts。<br/>对于 4xx 和 5xx，状态码有两级，一级是 HTTP
+  Status(在swagger 里面也显示为 Code)，它表示 HTTP 请求的状态；二级是业务层面的
+  code，它表示业务处理的状态。更多信息请查阅文档：<a target="_blank"
+  href="https://confluence.qmlm.work/pages/viewpage.action?pageId=4194305">服务端错误码<a/>
+modified: 1589026518765
+name: 账号体系 1.0.0
+parentId: null
+scope: null
+type: Workspace

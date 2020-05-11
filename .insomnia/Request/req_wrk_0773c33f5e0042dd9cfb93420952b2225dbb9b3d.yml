@@ -1,0 +1,24 @@
+_id: req_wrk_0773c33f5e0042dd9cfb93420952b2225dbb9b3d
+authentication:
+  prefix: ""
+  token: "{{bearerToken}}"
+  type: bearer
+body: {}
+created: 1589023180800
+description: ""
+headers: []
+isPrivate: false
+metaSortKey: -1589023180800
+method: GET
+modified: 1589026518570
+name: 用户活体认证，开始认证
+parameters: []
+parentId: fld_wrk_0773c33f5e0042dd9cfb93420952b2224ade1cf0
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: "{{ base_url }}/v1/cloudauth/verifytoken"

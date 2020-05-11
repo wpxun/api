@@ -1,0 +1,24 @@
+_id: req_wrk_0773c33f5e0042dd9cfb93420952b22251c35829
+authentication:
+  prefix: ""
+  token: "{{bearerToken}}"
+  type: bearer
+body: {}
+created: 1589023180181
+description: ""
+headers: []
+isPrivate: false
+metaSortKey: -1589023180181
+method: DELETE
+modified: 1589026518441
+name: 删除当前用户的一个地址
+parameters: []
+parentId: fld_wrk_0773c33f5e0042dd9cfb93420952b22267d2d797
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: "{{ base_url }}/v1/addresses/{{ id }}"

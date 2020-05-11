@@ -1,0 +1,27 @@
+_id: req_wrk_0773c33f5e0042dd9cfb93420952b222d88ab0f9
+authentication: {}
+body: {}
+created: 1589023181010
+description: ""
+headers: []
+isPrivate: false
+metaSortKey: -1589023181010
+method: GET
+modified: 1589026518617
+name: 发送短信验证码
+parameters:
+  - disabled: false
+    name: phone
+    value: string
+  - disabled: true
+    name: valid
+    value: string
+parentId: fld_wrk_0773c33f5e0042dd9cfb93420952b2224ade1cf0
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: "{{ base_url }}/v1/sendcode"

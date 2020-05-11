@@ -1,0 +1,24 @@
+_id: req_wrk_0773c33f5e0042dd9cfb93420952b2220fb85897
+authentication: {}
+body: {}
+created: 1589023179985
+description: ""
+headers: []
+isPrivate: false
+metaSortKey: -1589023179985
+method: GET
+modified: 1589026518387
+name: 获取当前用户的某一个类型的协议信息
+parameters:
+  - disabled: false
+    name: type
+    value: string
+parentId: fld_wrk_0773c33f5e0042dd9cfb93420952b2228414f7a3
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: "{{ base_url }}/v1/protocol"

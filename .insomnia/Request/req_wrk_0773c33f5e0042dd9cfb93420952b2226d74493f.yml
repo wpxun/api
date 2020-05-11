@@ -1,0 +1,28 @@
+_id: req_wrk_0773c33f5e0042dd9cfb93420952b2226d74493f
+authentication:
+  prefix: ""
+  token: "{{bearerToken}}"
+  type: bearer
+body:
+  mimeType: application/json
+  text: "null"
+created: 1589023180531
+description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+isPrivate: false
+metaSortKey: -1589023180531
+method: PATCH
+modified: 1589026518507
+name: 更新当前用户信息
+parameters: []
+parentId: fld_wrk_0773c33f5e0042dd9cfb93420952b2229ba763ea
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: "{{ base_url }}/v1/users"

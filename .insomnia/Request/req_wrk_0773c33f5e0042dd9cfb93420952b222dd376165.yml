@@ -1,0 +1,24 @@
+_id: req_wrk_0773c33f5e0042dd9cfb93420952b222dd376165
+authentication:
+  prefix: ""
+  token: "{{bearerToken}}"
+  type: bearer
+body: {}
+created: 1589023180621
+description: ""
+headers: []
+isPrivate: false
+metaSortKey: -1589023180621
+method: POST
+modified: 1589026518528
+name: 成为房东
+parameters: []
+parentId: fld_wrk_0773c33f5e0042dd9cfb93420952b2224ade1cf0
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: "{{ base_url }}/v1/landlords"

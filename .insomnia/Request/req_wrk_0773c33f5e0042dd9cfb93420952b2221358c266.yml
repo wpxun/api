@@ -1,0 +1,24 @@
+_id: req_wrk_0773c33f5e0042dd9cfb93420952b2221358c266
+authentication:
+  prefix: ""
+  token: "{{bearerToken}}"
+  type: bearer
+body: {}
+created: 1589023180132
+description: ""
+headers: []
+isPrivate: false
+metaSortKey: -1589023180132
+method: GET
+modified: 1589026518433
+name: 获取用户一个最优地址
+parameters: []
+parentId: fld_wrk_0773c33f5e0042dd9cfb93420952b22267d2d797
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: "{{ base_url }}/v1/address/priority"

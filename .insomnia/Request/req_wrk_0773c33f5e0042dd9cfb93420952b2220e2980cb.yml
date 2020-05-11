@@ -1,0 +1,43 @@
+_id: req_wrk_0773c33f5e0042dd9cfb93420952b2220e2980cb
+authentication:
+  prefix: ""
+  token: "{{bearerToken}}"
+  type: bearer
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "id": 0,
+      "user_id": 0,
+      "type": "string",
+      "card_type": "string",
+      "holder_name": "string",
+      "bank_name": "string",
+      "card_num": "string",
+      "safe_num": "string",
+      "expiration": "string",
+      "is_default": 0,
+      "is_receipt": 0,
+      "created_at": 0,
+      "updated_at": 0
+    }
+created: 1589023179999
+description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+isPrivate: false
+metaSortKey: -1589023179999
+method: PUT
+modified: 1589026518401
+name: 更新当前用户的一个账号
+parameters: []
+parentId: fld_wrk_0773c33f5e0042dd9cfb93420952b2229270b0e2
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: "{{ base_url }}/v1/payments/{{ id }}"

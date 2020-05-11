@@ -1,0 +1,24 @@
+_id: req_wrk_0773c33f5e0042dd9cfb93420952b222915f9fb4
+authentication:
+  prefix: ""
+  token: "{{bearerToken}}"
+  type: bearer
+body: {}
+created: 1589023181053
+description: ""
+headers: []
+isPrivate: false
+metaSortKey: -1589023181053
+method: GET
+modified: 1589026518626
+name: 退出登录
+parameters: []
+parentId: fld_wrk_0773c33f5e0042dd9cfb93420952b22223c763e1
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: "{{ base_url }}/v1/logout"

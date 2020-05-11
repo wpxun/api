@@ -1,0 +1,32 @@
+_id: req_wrk_0773c33f5e0042dd9cfb93420952b222fe3d55d0
+authentication: {}
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "phone": "string",
+      "code": "string",
+      "email": "string",
+      "ecode": "string",
+      "password": "string"
+    }
+created: 1589023181229
+description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+isPrivate: false
+metaSortKey: -1589023181229
+method: POST
+modified: 1589026518669
+name: 登录或者注册
+parameters: []
+parentId: fld_wrk_0773c33f5e0042dd9cfb93420952b22223c763e1
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: "{{ base_url }}/v1/login"
