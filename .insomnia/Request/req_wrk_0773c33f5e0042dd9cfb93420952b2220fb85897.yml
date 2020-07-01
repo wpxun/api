@@ -7,7 +7,7 @@ headers: []
 isPrivate: false
 metaSortKey: -1589023179985
 method: GET
-modified: 1589026518387
+modified: 1593598937343
 name: 获取当前用户的某一个类型的协议信息
 parameters:
   - disabled: false

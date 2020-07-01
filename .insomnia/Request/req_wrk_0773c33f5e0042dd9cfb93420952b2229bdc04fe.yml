@@ -1,0 +1,24 @@
+_id: req_wrk_0773c33f5e0042dd9cfb93420952b2229bdc04fe
+authentication: {}
+body: {}
+created: 1593594217637
+description: ""
+headers: []
+isPrivate: false
+metaSortKey: -1593594217637
+method: GET
+modified: 1593598937444
+name: 浏览用户信息，无需认证
+parameters:
+  - disabled: true
+    name: role
+    value: "0"
+parentId: fld_wrk_0773c33f5e0042dd9cfb93420952b2229ba763ea
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: "{{ base_url }}/v1/users/{{ id }}"

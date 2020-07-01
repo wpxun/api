@@ -4,7 +4,7 @@ description: 认证流程和用户操作接口，内部域名需要绑定 hosts�
   Status(在swagger 里面也显示为 Code)，它表示 HTTP 请求的状态；二级是业务层面的
   code，它表示业务处理的状态。更多信息请查阅文档：<a target="_blank"
   href="https://confluence.qmlm.work/pages/viewpage.action?pageId=4194305">服务端错误码<a/>
-modified: 1589026518765
+modified: 1593598938324
 name: 账号体系 1.0.0
 parentId: null
 scope: null
